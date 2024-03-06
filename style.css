@@ -1,0 +1,87 @@
+/*corpo da pagina*/
+body{
+    background-color: black;
+}
+h2{ 
+    color: white;
+
+}
+h1{
+    color: white;
+}
+h3{
+    color: rgb(141, 24, 24);
+}
+
+/* checkbox marcados ou não*/
+.cartoesSelecao{
+    width: 50px;
+    display: inline-block;
+    color: white;
+    border-radius: 4px;
+
+}
+.cartoesSelecao input:checked + label{ 
+    text-decoration: line-through;
+    color: red;
+}
+.buttonRed{
+    border: none;
+    background-color: black;
+}
+.cartoesSelecao2{
+    color: white;
+    border-radius: 4px;
+
+}
+
+/*mesas 1-42*/
+.botaoColapse{ 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.botaoColapse{
+background-color: black;
+    color: white;
+    border: 2px solid #4c56af
+}
+.botaoColapse:hover{
+    background-color: #4c56af;
+    color: black;
+}
+
+/*Botão Salvar*/
+.button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button{
+    background-color: black;
+    color: white;
+    border: 2px solid #4CAF50;
+
+}
+.button:hover{
+background-color: #4CAF50;
+color: black;
+}
+
+.TextoPadrao{
+    color: white;
+}
