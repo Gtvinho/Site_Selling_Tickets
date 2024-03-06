@@ -6,6 +6,8 @@ Created to manage tickets sold, reserved, and returned
 i've made it in my job, to manage the tickets tha we've sold. 
 
 select if you want to sold, return or see the tickets that already have been sold.
+
+
 SOLD:
 just select the ttable you want to sell or reserve.
 out the name of the client ( buyed the ticket ) and the seller. 
